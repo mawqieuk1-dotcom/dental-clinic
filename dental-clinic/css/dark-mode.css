@@ -1,0 +1,15 @@
+body.dark {
+    --bg: #0f172a;
+    --bg-secondary: #1e293b;
+    --text: #e2e8f0;
+    --text-light: #94a3b8;
+    --card-bg: #1e293b;
+    --card-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    --header-bg: rgba(15,23,42,0.9);
+}
+body.dark .btn-outline { border-color: var(--accent); color: var(--accent); }
+body.dark .btn-outline:hover { background: var(--accent); color: #000; }
+body.dark .service-card, body.dark .why-card, body.dark .booking-form { background: var(--card-bg); }
+body.dark .gallery-placeholder { background: var(--bg-secondary); }
+body.dark .doctor-avatar-large { background: var(--bg-secondary); }
+body.dark .service-price { background: var(--bg-secondary); }
